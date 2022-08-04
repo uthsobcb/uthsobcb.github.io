@@ -15,7 +15,7 @@
     display: block;
     text-align: center;
 }
-h2{
+.name{
     color: white;
     text-align: center;
     display: block;
@@ -23,7 +23,6 @@ h2{
 }
 p{
     color: azure;
-    text-align: center;
 }
 i{
     font-size: 35px;
@@ -37,13 +36,39 @@ i{
 .buttons{
     text-align: center;
     margin-top: 2pc;
-    list-style: none;
 }
 .btn{
     margin: 5px;
     color: azure;
     border: 5px solid grey;
     background-color: grey;
-    border-radius: 10px;
-    justify-content: center;
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.head{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 70px;
+    text-decoration: none;
+}
+.maincon{
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+.maincon h3{
+    color: white;
+    font-size: 25px;
+}
+.card{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 150px;
+    width: auto;
+    background: rgba(196, 196, 196, 0.3);
+    position: flex;
+    padding: 20px;
 }
