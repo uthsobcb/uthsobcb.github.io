@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+
+body {
+    background-color: #282a36;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 45px;
+}
+.image img {
+    border-radius: 50%;
+    width: 330px;
+    height: 300px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.name {
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+}
+p {
+    color: azure;
+}
+
+i {
+    font-size: 35px;
+    display: block;
+    color: azure;
+    margin-left: 5px;
+}
+
+.links {
+    text-align: center;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 2pc;
+}
+
+.btn {
+    margin: 5px;
+    color: azure;
+    border: 5px solid grey;
+    background-color: grey;
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.head {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+
+.maincon {
+    padding: 5px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.maincon h3 {
+    align-self: flex-start;
+    color: whitesmoke;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.blog-title {
+    font-size: 24px;
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.card {
+
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: fit-content;
+    width: 70%;
+    background: #8f8f8f4d;
+    position: flex;
+    padding: 20px;
+}
+
+.card p {
+    color: #acacac;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.blog-footer {
+    color: #9c9c9c;
+}
+.about-page{
+    margin-top: 60px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.about-intro h2{
+    font-size: 35px;
+}
+.about-intro p,li{
+    font-size: 17px;
+}
+.edu-row{
+    display: flex;
+}
+.indi{
+    height: fit-content;
+    width: 370px;
+    background: #8f8f8f4d;
+    padding: 10px;
+    border-radius: 15px;
+    margin:15px;
+}
+.skill-body{
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    .indi{
+        height: auto;
+        width: auto;
+    }
+    .edu-row{
+        display: block;
+    }
+    .skill-body{
+        display: block;
+    }
+}
