@@ -132,6 +132,9 @@ i {
     display: flex;
 }
 @media only screen and (max-width: 600px) {
+    .about-page{
+        margin-left: 0px;
+    }
     .indi{
         height: auto;
         width: auto;
