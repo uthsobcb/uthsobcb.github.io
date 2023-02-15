@@ -139,10 +139,7 @@ i {
         height: auto;
         width: auto;
     }
-    .edu-row{
-        display: block;
-    }
-    .skill-body{
+    .box-row{
         display: block;
     }
 }
