@@ -6,6 +6,10 @@ body {
     font-family: 'Ubuntu', sans-serif;
     margin-top: 45px;
 }
+a {
+    color: wheat;
+    text-decoration: none;
+}
 .image img {
     border-radius: 50%;
     width: 260px;
@@ -31,7 +35,6 @@ i {
     color: azure;
     margin-left: 5px;
 }
-
 .links {
     text-align: center;
 }
@@ -117,7 +120,7 @@ i {
 .about-intro p,li{
     font-size: 17px;
 }
-.edu-row{
+.box-row{
     display: flex;
 }
 .indi{
@@ -127,9 +130,6 @@ i {
     padding: 10px;
     border-radius: 15px;
     margin:15px;
-}
-.skill-body{
-    display: flex;
 }
 @media only screen and (max-width: 600px) {
     .about-page{
