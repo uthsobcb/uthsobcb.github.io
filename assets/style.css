@@ -6,10 +6,12 @@ body {
     font-family: 'Ubuntu', sans-serif;
     margin-top: 45px;
 }
+
 a {
     color: wheat;
     text-decoration: none;
 }
+
 .image img {
     border-radius: 50%;
     width: 260px;
@@ -25,6 +27,7 @@ a {
     display: block;
     font-size: 40px;
 }
+
 p {
     color: azure;
 }
@@ -35,6 +38,7 @@ i {
     color: azure;
     margin-left: 5px;
 }
+
 .links {
     text-align: center;
 }
@@ -75,7 +79,6 @@ i {
 }
 
 .maincon h3 {
-    align-self: flex-start;
     color: whitesmoke;
     font-size: 25px;
     text-align: left;
@@ -88,6 +91,7 @@ i {
     text-decoration: none;
     font-family: 'Hind Siliguri', sans-serif;
 }
+
 .card {
 
     border-radius: 15px;
@@ -108,38 +112,47 @@ i {
 .blog-footer {
     color: #9c9c9c;
 }
-.about-page{
+
+.about-page {
     margin-top: 60px;
     margin-left: 50px;
     color: white;
     font-family: 'Hind Siliguri', sans-serif;
 }
-.about-intro h2{
+
+.about-intro h2 {
     font-size: 35px;
 }
-.about-intro p,li{
+
+.about-intro p,
+li {
     font-size: 17px;
 }
-.box-row{
+
+.box-row {
     display: flex;
 }
-.indi{
+
+.indi {
     height: fit-content;
     width: 370px;
     background: #8f8f8f4d;
     padding: 10px;
     border-radius: 15px;
-    margin:15px;
+    margin: 15px;
 }
+
 @media only screen and (max-width: 600px) {
-    .about-page{
+    .about-page {
         margin-left: 0px;
     }
-    .indi{
+
+    .indi {
         height: auto;
         width: auto;
     }
-    .box-row{
+
+    .box-row {
         display: block;
     }
 }
